@@ -1,0 +1,2 @@
+!function(){var t=document.querySelector("[data-start]"),e=document.querySelector("[data-stop]"),o=document.querySelector("body");function n(){console.log("aktualny status petli",a),a&&(o.style.backgroundColor="#".concat(Math.floor(16777215*Math.random()).toString(16)),setTimeout(n,1e3))}var a=!1;t.addEventListener("click",(function(){a=!0,t.disabled=!0,n()})),e.addEventListener("click",(function(){a=!1,t.disabled=!1}))}();
+//# sourceMappingURL=01-color-switcher.f3016946.js.map

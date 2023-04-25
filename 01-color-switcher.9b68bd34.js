@@ -1,0 +1,2 @@
+const t=document.querySelector("[data-start]"),e=document.querySelector("[data-stop]"),o=document.querySelector("body");function a(){console.log("aktualny status petli",d),d&&(o.style.backgroundColor=`#${Math.floor(16777215*Math.random()).toString(16)}`,setTimeout(a,1e3))}let d=!1;t.addEventListener("click",(()=>{d=!0,t.disabled=!0,a()})),e.addEventListener("click",(()=>{d=!1,t.disabled=!1}));
+//# sourceMappingURL=01-color-switcher.9b68bd34.js.map
